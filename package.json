@@ -1,9 +1,9 @@
 {
   "name": "express-skeleton",
-  "version": "0.0.1",
+  "version": "0.0.1-1",
   "private": true,
   "scripts": {
-    "start": "node app"
+    "start": "node app.js"
   },
   "dependencies": {
     "express": "3.0.0rc2",
@@ -11,6 +11,7 @@
   },
   "engines": {
     "node": "0.8.x",
-    "npm":  "1.1.x"
-  }  
+    "npm": "1.1.x"
+  },
+  "subdomain": "express-skeleton"
 }
